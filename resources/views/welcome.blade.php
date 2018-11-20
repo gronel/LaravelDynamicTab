@@ -67,11 +67,7 @@
             </div>
 
         </div>
-        <div>
-            <div class="operationDiv">
-                <button type="submit" class="btn" id="composeButton">Compose</button>
-            </div>
-        </div>
+
 
 
 
