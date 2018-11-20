@@ -1,0 +1,315 @@
+.align-switch {
+  margin: -0.5rem 0;
+}
+
+.timeless-brand img {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.timeless-brand .tfooter {
+  border: none;
+  background: transparent;
+}
+.timeless-brand .tfooter a {
+  color: #fff;
+}
+
+header {
+  /**************************
+  * = app-header style
+  **************************/
+}
+header.app-header .hamburger {
+  outline: 0;
+}
+header.app-header.timeless-gray100 {
+  background: #f0f3f5;
+  border-bottom: 1px solid #c8ced3;
+}
+header.app-header.timeless-gray200 {
+  background: #e4e7ea;
+}
+header.app-header .navbar-brand-full {
+  width: 100%;
+  height: 55px;
+  padding: 18px;
+}
+
+.sidebar-minimized .sidebar .nav-dropdown-items .nav-item .nav-link {
+  padding-left: 1rem !important;
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown {
+  background: #6610f2;
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover .nav-dropdown-toggle {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items {
+  background: #6610f2 !important;
+}
+.sidebar-minimized .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown {
+  background: #20a8d8;
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover .nav-dropdown-toggle {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items {
+  background: #20a8d8 !important;
+}
+.sidebar-minimized .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown {
+  background: #17a2b8;
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover .nav-dropdown-toggle {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items {
+  background: #17a2b8 !important;
+}
+.sidebar-minimized .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item {
+  background: rgba(0, 0, 0, 0.2);
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item {
+  background: #fff;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown {
+  background: #fff;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover {
+  color: #fff;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover .nav-dropdown-toggle {
+  background: #111;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown:hover .nav-dropdown-toggle.open .nav-icon {
+  color: #fff;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: #fff;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items {
+  background: #20a8d8 !important;
+}
+.sidebar-minimized .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.app-body {
+  /**************************
+  * = breadcrumb style
+  **************************/
+  /**************************
+  * = sidebar style
+  **************************/
+}
+.app-body .hideBreadcrumb {
+  margin-top: -46px;
+}
+.app-body .sidebar .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover.nav-dropdown-toggle::before {
+  background-image: none;
+  font-family: 'simple-line-icons';
+  content: "\e605";
+  font-size: 8px;
+  color: #fff;
+}
+.app-body .sidebar .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle::before {
+  background-image: none;
+  font-family: 'simple-line-icons';
+  content: "\e605";
+  font-size: 8px;
+  color: #fff;
+}
+.app-body .sidebar .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item a.nav-link {
+  padding-left: 2.59375rem;
+}
+.app-body .sidebar .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item a.nav-link i.nav-icon {
+  display: none !important;
+}
+.app-body .sidebar.timeless-indigo {
+  background: #6610f2;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item a.nav-link.active {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item a.nav-link:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item a.nav-link:hover .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item a.nav-link .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown.open .nav-dropdown-items {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link i.nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.active, .app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.app-body .sidebar.timeless-indigo .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle {
+  background: #6610f2;
+}
+.app-body .sidebar.timeless-blue {
+  background: #20a8d8;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item a.nav-link.active {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item a.nav-link:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item a.nav-link:hover .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item a.nav-link .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown.open .nav-dropdown-items {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link i.nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.active, .app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.app-body .sidebar.timeless-blue .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle {
+  background: #20a8d8;
+}
+.app-body .sidebar.timeless-cyan {
+  background: #17a2b8;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item a.nav-link.active {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item a.nav-link:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item a.nav-link:hover .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item a.nav-link .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown.open .nav-dropdown-items {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link {
+  color: #fff;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link i.nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.active, .app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.app-body .sidebar.timeless-cyan .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle {
+  background: #17a2b8;
+}
+.app-body .sidebar.timeless-white {
+  background: #fff;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item a.nav-link {
+  color: #000;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item a.nav-link.active {
+  background: #20a8d8;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item a.nav-link:hover {
+  color: #fff;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item a.nav-link:hover .nav-icon {
+  color: #fff;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item a.nav-link .nav-icon {
+  color: #000;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown.open .nav-dropdown-items {
+  background: #20a8d8;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link {
+  color: #111;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover.nav-dropdown-toggle::before {
+  color: #111;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle::before {
+  color: #111;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link i.nav-icon {
+  color: #111;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.active, .app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown a.nav-link.nav-dropdown-toggle {
+  background: #fff;
+}
+.app-body .sidebar.timeless-white .sidebar-nav ul.nav li.nav-item.nav-dropdown ul.nav-dropdown-items li.nav-item a.nav-link {
+  color: #fff;
+}
+.app-body main input.form-control:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/**************************
+  * = animation style
+  **************************/
+.breadcrumb, .hideBreadcrumb {
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  -ms-transition: all .1s;
+  transition: all 0.1s;
+}
+.label-link{
+    cursor: pointer;
+    text-decoration: underline;
+}

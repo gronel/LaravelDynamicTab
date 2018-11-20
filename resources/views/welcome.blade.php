@@ -1,98 +1,99 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <!-- Title -->
+    <title>@yield('browser-title', config('app.name'))</title>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
 
-            .full-height {
-                height: 100vh;
-            }
+    <!-- Icons-->
+    <link href="{{ asset('css/coreui-icons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/flag-icon.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+    <!-- Main styles for this application-->
 
-            .position-ref {
-                position: relative;
-            }
+    <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/pace.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/hamburgers.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendors/spinkit/css/spinkit.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendors/toastr/css/toastr.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('vendors/ladda/css/ladda-themeless.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('vendors/select2/css/select2.min.css') }}" rel="stylesheet" />
+    <style>
+        .nav-tabs > li .close {
+            margin: -2px 0 0 10px;
+            font-size: 18px;
+        }
+        .marginBottom {
+            margin-bottom :1px !important;
+        }
+        .operationDiv {
+            padding:5px 10px 5px 5px;
+        }
+        .operationDivWrapper {
+            margin-top:-1px;
+        }
+        .leftMenu {
+            height :70%;
+            background-color: #E6E6E6;
+            border-right: 2px solid #BFBFBF;
+        }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+    </style>
+</head>
 
-            .content {
-                text-align: center;
-            }
+<body>
+<div class="container">
 
-            .title {
-                font-size: 84px;
-            }
+        <ul class="nav nav-tabs marginBottom" id="myTab" role="tablist">
+            <li class="nav-item ">
+                <a href="#home" class="nav-link active backgroundRed" data-toggle="tab" >Main </a>
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+            </li>
+        </ul>
+        <div class="tab-content span4">
+            <div class="tab-pane active" id="home">
+                @include('person/index')
+            </div>
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+        </div>
+        <div>
+            <div class="operationDiv">
+                <button type="submit" class="btn" id="composeButton">Compose</button>
             </div>
         </div>
-    </body>
+
+
+
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="{{ asset('vendors/jquery.min.js') }}"></script>
+<script src="{{ asset('vendors/popper.min.js') }}"></script>
+<script src="{{ asset('vendors/bootstrap.min.js') }}"></script>
+<script src="{{ asset('vendors/pace.min.js') }}"></script>
+<script src="{{ asset('vendors/perfect-scrollbar.min.js') }}"></script>
+<script src="{{ asset('vendors/coreui.min.js') }}"></script>
+<script src="{{ asset('vendors/ladda/js/spin.min.js') }}"></script>
+<script src="{{ asset('vendors/ladda/js/ladda.min.js') }}"></script>
+<script src="{{ asset('vendors/jquery-validation/dist/jquery.validate.js') }}"></script>
+<script src="{{ asset('vendors/ladda/js/spin.min.js') }}"></script>
+<script src="{{ asset('vendors/ladda/js/ladda.min.js') }}"></script>
+<script src="{{ asset('vendors/select2/js/select2.min.js') }}"></script>
+
+<script src="{{ asset('vendors/toastr/js/toastr.js') }}"></script>
+<script src="{{ asset('js/dynamic-tab/dynamic-tab.js') }}"></script>
+
+</body>
 </html>
